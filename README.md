@@ -1,16 +1,16 @@
+![Logo](https://logandag.dev/wp-content/uploads/2025/10/cropped-cover-scaled-1.png)
+
+
 ## Hi there 👋
 
-<!--
-**loganDag/loganDag** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### About me
 
-Here are some ideas to get you started:
+I am a God loving, self-taught web designer constantly learning technology as it evolves. I work on various websites using PHP, HTML, CSS, and Bootstrap. I always looking for those interested in various things, from faith and religion, to technology and just talking along with all between.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+### Contact information
+You can contact me at [This Email](mailto:logandagdev@outlook.com)
+
+On discord [Here](https://discord.com/users/1408371149305413683)
+
+or visit my website [Here](https://logandag.dev)
