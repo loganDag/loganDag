@@ -14,3 +14,5 @@ You can contact me at [This Email](mailto:logandagdev@outlook.com)
 On discord [Here](https://discord.com/users/1408371149305413683)
 
 or visit my website [Here](https://logandag.dev)
+
+or my gitHub specific website [Here](https://logandag.github.io/loganDag/)
