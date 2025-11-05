@@ -27,16 +27,31 @@
   <div class="d-flex align-items-center justify-content-center hero">
     <h1>Hello and welcome to my dedicated GitHub page!</h1>
   </div>
-  <main class="min-vh-100 align-items-center justify-content-center container w-75">
+  <main class="min-vh-100 align-items-center justify-content-center container w-100">
     <h2 id="hi-there-">Hi there 👋</h2>
 <h3 id="about-me">About me</h3>
 <p>I am a God loving, self-taught web designer constantly learning technology as it evolves. I work on various websites using PHP, HTML, CSS, and Bootstrap. I always looking for those interested in various things, from faith and religion, to technology and just talking along with all between.</p>
-<h3 id="contact-information">Contact information</h3>
-<p>You can contact me at <a href="mailto:logandagdev@outlook.com">This Email</a></p>
-<p>On discord <a href="https://discord.com/users/1408371149305413683">Here</a></p>
-<p>or visit my website <a href="https://logandag.dev">Here</a></p>
-<p>or my gitHub specific website <a href="https://logandag.github.io/loganDag/">Here</a></p>
+<h3 id="contact-information">Contact</h3>
+<p>You can contact me with the form below or you can email me at: <a href="mailto:logandagdev@outlook.com">logandagdev@outlook.com</a></p>
 
+<div id="responseMessage"></div>
+<form method="post" id="contact-form">
+  <div class="form-floating">
+      <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+      <label for="name">Name</label>
+   </div> 
+   <br>
+    <div class="form-floating">
+        <input type="email" class="form-control" id="email" name="email" placeholder="" required>
+        <label for="email">Email address</label>
+      </div>
+      <br>
+      <div class="form-floating">
+        <textarea class="form-control" id="message" name="message" placeholder="" style="height: 175px;"></textarea>
+        <label for="message">Message</label>  
+      </div>
+      <button type="submit" class="btn btn-primary mt-3" id="Form_submit">Submit form</button>
+  </form>
   </main>
   <!-- Footer -->
   <footer class="bg-dark text-white mt-auto">
@@ -48,4 +63,82 @@
   </footer>
 </body>
 
+<style>
+      #responseMessage{
+        background-color: white;
+    }
+    .link {
+        position: relative !important;
+        text-decoration: none !important;
+    }
+
+    .link::after {
+        content: '' !important;
+        position: absolute !important;
+        width: 0 !important;
+        height: 2px !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        background-color: #fff !important;
+        transition: width 0.3s !important;
+    }
+
+    .link:hover::after {
+        width: 100% !important;
+    }
+</style>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        // Handle form submission
+        $("#contact-form").submit(function (event) {
+            event.preventDefault();  // Prevent form from submitting normally and causing page reload
+
+            console.log('Form submission intercepted');  // Log to verify if we reached here
+
+            // Get the email value from the input field
+            var email = $("#email").val();
+            var name = $("#name").val();
+            var message = $("#message").val();
+
+            // Check if email is empty
+            if (email === "") {
+                $("#responseMessage").html('<p class="text-danger">Please enter a valid email address.</p>');
+                return;  // Stop further execution if email is empty
+            }
+            if (name === "") {
+                $("#responseMessage").html('<p class="text-danger">Please enter a name.</p>');
+                return;  // Stop further execution if name is empty
+            }
+                        if (message === "") {
+                $("#responseMessage").html('<p class="text-danger">Please enter a message.</p>');
+                return;  // Stop further execution if message is empty
+            }
+
+            // Perform AJAX request to the PHP script
+            $.ajax({
+                url: 'https://server.logandag.dev/gh_page_contact_form.php',  // The PHP file that will handle the request
+                type: 'POST',                    // Use POST method to send data
+                data: {
+                  name: name,
+                  message: message,  
+                  email: email,           // Send the email as POST data
+                    Form_submit: true         // Indicate the subscribe action was clicked
+                },
+                success: function(response) {
+                    console.log("Response from PHP: ", response);  // Log the response from PHP
+
+                    // On successful response from PHP, show the message in the #responseMessage div
+                    $("#responseMessage").html(response);
+                },
+                error: function(xhr, status, error) {
+                    console.error("AJAX Error: ", status, error);  // Log any AJAX errors
+
+                    // Handle AJAX error (network issues, server down, etc.)
+                    $("#responseMessage").html('<p class="text-danger">An error occurred. Please try again later.</p>');
+                }
+            });
+        });
+           });
+</script>
 </html>
