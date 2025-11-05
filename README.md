@@ -7,12 +7,12 @@
 
 I am a God loving, self-taught web designer constantly learning technology as it evolves. I work on various websites using PHP, HTML, CSS, and Bootstrap. I always looking for those interested in various things, from faith and religion, to technology and just talking along with all between.
 
+I have several repositories for anyone to look at and contribute to if you feel like it. I have several methods of communication as well, from my website, to discord and discord server, to telegram. They are listed below for convince.
+
 
 ### Contact information
-You can contact me at [This Email](mailto:logandagdev@outlook.com)
+You can contact me at following methods:
 
-On discord [Here](https://discord.com/users/1408371149305413683)
-
-or visit my website [Here](https://logandag.dev)
-
-or my gitHub specific website [Here](https://logandag.github.io/loganDag/)
+| Email | Website | Telegram | LDD Telegram Channel | Discord server|
+|------- |  -------- | -------- | ----------|-------- |
+|[My email](mailto:logandagdev@outlook.com)|[My website](https://logandag.github.io/loganDag/)|[My Telegram](https://t.me/LoDag25)|[Telegram Channel](https://t.me/LDDtelegram)|[The Discord Server](https://discord.com/invite/ZdZ6VAEgtZ)|
