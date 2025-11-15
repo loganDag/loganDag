@@ -50,10 +50,10 @@
         <textarea class="form-control" id="message" name="message" placeholder="" style="height: 175px;"></textarea>
         <label for="message">Message</label>  
       </div>
-      <select class="form-select" name="contactBack" id="contactBack">
+      <!--<select class="form-select" name="contactBack" id="contactBack">
         <option value="yes" selected>Contact me back</option>
         <option value="no">Do not contact back</option>
-      </select>
+      </select>-->
       <button type="submit" class="btn btn-primary mt-3" id="Form_submit" name="Form_submit">Submit form</button>
   </form>
   </main>
@@ -104,7 +104,7 @@
             var email = $("#email").val();
             var name = $("#name").val();
             var message = $("#message").val();
-            var contactBack = $('#contactBack').val();
+            //var contactBack = $('#contactBack').val();
 
             // Check if email is empty
             if (email === "") {
@@ -128,7 +128,7 @@
                   name: name,
                   message: message,  
                   email: email,
-                  contactBack: contactBack,           // Send the email as POST data
+                  //contactBack: contactBack,           // Send the email as POST data
                     Form_submit: true         // Indicate the subscribe action was clicked
                 },
                 success: function(response) {
