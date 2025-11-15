@@ -50,7 +50,7 @@
         <textarea class="form-control" id="message" name="message" placeholder="" style="height: 175px;"></textarea>
         <label for="message">Message</label>  
       </div>
-      <select class="form-select" name="contactBack">
+      <select class="form-select" name="contactBack" id="contactBack">
         <option value="yes" selected>Contact me back</option>
         <option value="no">Do not contact back</option>
       </select>
@@ -100,10 +100,11 @@
 
             console.log('Form submission intercepted');  // Log to verify if we reached here
 
-            // Get the email value from the input field
+            // Get the values from the input field
             var email = $("#email").val();
             var name = $("#name").val();
             var message = $("#message").val();
+            var contactBack = $('#contactBack').val();
 
             // Check if email is empty
             if (email === "") {
@@ -126,7 +127,8 @@
                 data: {
                   name: name,
                   message: message,  
-                  email: email,           // Send the email as POST data
+                  email: email,
+                  contactBack: contactBack,           // Send the email as POST data
                     Form_submit: true         // Indicate the subscribe action was clicked
                 },
                 success: function(response) {
