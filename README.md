@@ -15,4 +15,4 @@ You can contact me at following methods:
 
 | Email | Website | Telegram | LDD Telegram Channel | Discord server|
 |------- |  -------- | -------- | ----------|-------- |
-|[My email](mailto:logandagdev@outlook.com)|[My website](https://logandag.github.io/loganDag/)|[My Telegram](https://t.me/LoDag25)|[Telegram Channel](https://t.me/LDDtelegram)|[The Discord Server](https://discord.com/invite/ZdZ6VAEgtZ)|
+|[My email](mailto:logandagdev@outlook.com)|[My website](https://github.logandag.dev/)|[My Telegram](https://t.me/LoDag25)|[Telegram Channel](https://t.me/LDDtelegram)|[The Discord Server](https://discord.com/invite/ZdZ6VAEgtZ)|
