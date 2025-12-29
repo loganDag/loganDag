@@ -1,4 +1,4 @@
-![Logo](https://logandag.dev/wp-content/uploads/2025/10/cropped-cover-scaled-1.png)
+![Logo](https://images.logandag.dev/wp_ldd_cover_photos/cropped-cover-scaled-1-300x300.png)
 
 
 ## Hi there 👋
