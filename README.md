@@ -1,7 +1,7 @@
 ![Logo](https://images.logandag.dev/wp_ldd_cover_photos/cropped-cover-scaled-1-300x300.png)
 
 
-## Hi there 👋
+# Hi there 👋
 
 ### About me
 
@@ -9,6 +9,14 @@ I am a God loving, self-taught web designer constantly learning technology as it
 
 I have several repositories for anyone to look at and contribute to if you feel like it. I have several methods of communication as well, from my website, to discord and discord server, to telegram. They are listed below for convince.
 
+### GitHub Stats
+[![Logan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=loganDag&theme=github)](https://github-readme-activity-graph.vercel.app/graph?username=loganDag&theme=github)
+
+Above graph thanks to this [Repository](https://github.com/Ashutosh00710/github-readme-activity-graph?tab=readme-ov-file#customization)
+
+![Commit Stats](https://github.com/loganDag/github-stats-transparent/blob/output/generated/overview.svg) ![Language Stats](https://github.com/loganDag/github-stats-transparent/blob/output/generated/languages.svg)
+
+Above graphs thanks to this [Repository](https://github.com/rahul-jha98/github-stats-transparent)
 
 ### Contact information
 You can contact me at following methods:
