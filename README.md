@@ -10,9 +10,9 @@ I am a God loving, self-taught web designer constantly learning technology as it
 I have several repositories for anyone to look at and contribute to if you feel like it. I have several methods of communication as well, from my website, to discord and discord server, to telegram. They are listed below for convince.
 
 ### GitHub Stats
-[![Logan's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=loganDag&theme=github)](https://github-readme-activity-graph.vercel.app/graph?username=loganDag&theme=github)
+![Logan's Contributions](https://github.pumbas.net/api/contributions/loganDag)
 
-Above graph thanks to this [Repository](https://github.com/Ashutosh00710/github-readme-activity-graph?tab=readme-ov-file#customization)
+Above graph thanks to this [Repository](https://github.com/pumbas600/github-contributions)
 
 ![Commit Stats](https://github.com/loganDag/github-stats-transparent/blob/output/generated/overview.svg) ![Language Stats](https://github.com/loganDag/github-stats-transparent/blob/output/generated/languages.svg)
 
